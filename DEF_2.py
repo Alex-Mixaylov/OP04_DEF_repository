@@ -5,7 +5,7 @@
 def square(side):
     perim = 4 * side
     ploshad = side ** 2
-    diagonal = (2 * side) ** 0.5
+    diagonal = (2 * side * side) ** 0.5
     return perim, ploshad, diagonal
 
 # Запрашиваем ввод стороны квадрата у пользователя
